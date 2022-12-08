@@ -2,7 +2,8 @@ trigger:
 - 'main'
 
 pool:
-  vmImage: 'ubuntu-20.04'
+#  vmImage: 'ubuntu-20.04'
+  name: 'HelloPool'
   demands:
   - npm
 
